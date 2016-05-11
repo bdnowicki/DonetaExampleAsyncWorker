@@ -4,7 +4,7 @@
           xmlns="http://www.enova.pl/schema/form.xsd">
   <Row>
     <Label CaptionHtml="Wartość:" />
-    <Field CaptionHtml="" EditValue="{Value}" Visibility="{IsVisibleValue()}" />
-    <Field CaptionHtml="" EditValue="{ValueStatus}" Visibility="{IsVisibleValueStatus()}" />
+    <Field CaptionHtml="" EditValue="{Value}"/>
+    <Field CaptionHtml="" EditValue="{ValueStatus}"/>
   </Row>
 </DataForm>
