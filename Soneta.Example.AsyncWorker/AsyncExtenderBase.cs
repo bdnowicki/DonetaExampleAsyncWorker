@@ -42,7 +42,7 @@ namespace Soneta.Example.AsyncWorker
 
         public void Action(IAsyncContext acx)
         {
-            _value = Calculator.GetValue();
+            _value = Calculator.GetValue(acx);
             _cancelled = acx.IsCancellationRequested;
         }
 
